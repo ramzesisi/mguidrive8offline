@@ -4,7 +4,7 @@ param(
     [string]$Mode,
 
     [ValidatePattern('^\d{1,3}(\.\d{1,3}){3}$')]
-    [string]$MguAddress = '169.254.75.87',
+    [string]$MguAddress = 'ваш ip машины',
 
     [string]$Identity,
     [switch]$LegacyScp
